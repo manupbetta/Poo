@@ -1,0 +1,12 @@
+
+public class Elipse extends Forma implements Excentricidade {
+	//Eixo Maior: A, Eixo Menor: B
+	private double a;
+	private double b;
+	
+	public Elipse(double a, double b) {
+		if(a > b) {
+			this.a = 
+		}
+	}
+}

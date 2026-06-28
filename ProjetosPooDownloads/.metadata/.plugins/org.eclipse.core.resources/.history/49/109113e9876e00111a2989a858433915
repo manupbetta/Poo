@@ -1,0 +1,9 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Zoologico {
+	//Um mapa que vincula uma localizaçao a uma Instalacao
+	private Map<Localização, Instalacao> mapaInstalacoes;
+	
+	
+}

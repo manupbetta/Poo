@@ -1,0 +1,8 @@
+
+public class TesteFormas {
+	public static ArrayList<Forma> criaFormas(int quantidade){
+		ArrayList<Forma> lista = new ArrayList<>();
+		Random rand = new Random();
+		
+	}
+}

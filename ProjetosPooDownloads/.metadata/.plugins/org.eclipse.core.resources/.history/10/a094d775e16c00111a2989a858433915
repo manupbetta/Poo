@@ -1,0 +1,12 @@
+
+public class Elefante implements Terrestre{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Elefante(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.GRANDE;
+	}
+	
+	
+}

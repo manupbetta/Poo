@@ -1,0 +1,8 @@
+
+public class Quadrado extends Retangulo{
+	private double lado;
+	
+	public double getLado() {
+		return this.getLargura();
+	}
+}

@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Fatura {
+	private ArrayList<Item> itens;
+	private String nome;
+	private String cpf;
+	
+	public Fatura (String nome, String cpf) {
+		this.nome = nome;
+		this.cpf = cpf;
+		this.itens = new ArrayList<>();
+	}
+	
+	public void set
+}

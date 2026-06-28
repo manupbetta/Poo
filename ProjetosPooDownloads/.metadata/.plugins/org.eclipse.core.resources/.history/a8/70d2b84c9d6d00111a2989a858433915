@@ -1,0 +1,14 @@
+
+public class Tubarao implements Aquatico{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Tubarao(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.GRANDE;
+	}
+	
+	public Boolean Alimentar(Alimento alimento) {
+		return alimento == Alimento.CARNES || alimento == Alimento.PEIXES;
+	}
+}

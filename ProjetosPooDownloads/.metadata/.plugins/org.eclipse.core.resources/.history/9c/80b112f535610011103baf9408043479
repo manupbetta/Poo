@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		Estatistica estatistica = new Estatistica();
+		
+		System.out.print("Digite o número de amostras que deseja inserir (n): ");
+		int n = scanner.nextInt();
+		
+		for (int i=0; i < n; i++) {
+			System.out.print("Digite o valor da amostra " + (i+1) + ": ");
+			double valor = scanner.nextDouble();
+			
+			//Passando a responsabilidade de guardar o dado para o objeto
+			estatistica.adicionarAmostra(valor);
+		}
+	}
+	
+
+}

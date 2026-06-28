@@ -1,0 +1,12 @@
+
+public class FabricaInstalacao {
+	public static Instalacao criarInstalacaoElefante(Localização localizacao) {
+		return new InstalacaoElefante(localizacao);
+	}
+	
+	public static Instalacao criarInstalacaoMacaco(Localização localizacao) {
+		return new InstalacaoMacaco(localizacao);
+	}
+	
+	public static
+}

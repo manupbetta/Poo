@@ -1,0 +1,49 @@
+import java.util.ArrayList;
+
+public class Fatura {
+	private ArrayList<Item> itens;
+	private String nome;
+	private String cpf;
+	
+	public Fatura (String nome, String cpf) {
+		this.nome = nome;
+		this.cpf = cpf;
+		this.itens = new ArrayList<>();
+	}
+	
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public String getCpf() {
+		return this.cpf;
+	}
+	
+	public ArrayList<Item> getItens(){
+		return this.itens;
+	}
+	
+	public void adicionarItem(int i, Item item) {
+		// Garante que não vai dar erro de índice se a lista for menor que 'i'
+		if (i >= 0 && i <= itens.size()) {
+			this.itens.add(i, item);
+		} else {
+			this.itens.add(item); // Fallback: adiciona no final caso o índice seja inválido
+		}
+	}
+	
+	public double obtemPreco() {
+		double precoTotal = 0;
+		
+		for(Item item : itens) {
+			precoTotal += item.getPrecoUnitario() * item.getQuatidade();
+		}
+		
+		return precoTotal;
+	}
+
+	@Override
+	public String toString() {
+		return "Fatura [nome=" + nome + ", cpf=" + cpf + "]";
+	}
+}

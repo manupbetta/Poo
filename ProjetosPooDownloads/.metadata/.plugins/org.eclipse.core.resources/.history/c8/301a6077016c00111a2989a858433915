@@ -1,0 +1,6 @@
+
+public class Circulo extends Elipse{
+	public Cicuito(double raio) {
+		super(raio, raio);
+	}
+}

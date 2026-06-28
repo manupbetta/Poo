@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+
+public class Fatura {
+	private ArrayList<Item> itens;
+	private String nome;
+	private String cpf;
+	
+	public Fatura (String nome, String cpf) {
+		this.nome = nome;
+		this.cpf = cpf;
+		this.itens = new ArrayList<>();
+	}
+	
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public String getCpf() {
+		return this.cpf;
+	}
+	
+	public ArrayList<Item> getItens(){
+		return this.itens;
+	}
+	
+	public void adicionarItem(int i, Item item) {
+		
+	}
+}

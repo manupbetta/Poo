@@ -1,0 +1,23 @@
+
+public class Foca implements Anfibio{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Foca(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.MEDIO;
+	}
+	
+	@Override
+	public Boolean Alimentar(Alimento alimento) {
+		return alimento == Alimento.PEIXES;
+	}
+	
+	@Override
+	public void locomover() {
+		this.nadar();
+		this.andar();
+	}
+	
+	@Override
+}

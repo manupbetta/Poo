@@ -1,0 +1,10 @@
+package JogoPo;
+
+public class Coliseu {
+	public static void main(String [] args) {
+		Item espada = new Item("Espada", 10, 30, 0, 0);
+		Item escudo = new Item("Escudo", 10, 30, 5, 1);
+		
+		
+	}
+}

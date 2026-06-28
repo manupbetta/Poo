@@ -1,0 +1,27 @@
+import java.util.List;
+import java.util.ArrayList;
+
+public abstract class Instalacao {
+	private int capacidadeMaxima;
+	private Localização localizacao;
+	private double temperatura;
+	private List<Animal> animaisInstalados;
+	private List<ElementoInstalacao> elementos; //relação 1..1*
+	
+	public Instalacao(int capacidadeMaxima, Localização localizacao, double temperatura) {
+		this.capacidadeMaxima = capacidadeMaxima;
+		this.localizacao = localizacao;
+		this.temperatura =  temperatura;
+		this.animaisInstalados = new ArrayList<>();
+		this.elementos = new ArrayList<>();
+	}
+	
+	//Método para adicionar elementos (Jaula/Tanque) à instalação
+	public void adicionarElemento(ElementoInstalacao elemento) {
+		if(elemento != null) {
+			this.elementos.add(elemento);
+		}
+	}
+	
+	
+}

@@ -1,0 +1,7 @@
+package JogoPo;
+
+public interface Lutavel {
+	int calcularAtaqueTotal();
+	int calcularDefesaTotal();
+	int cclcular
+}

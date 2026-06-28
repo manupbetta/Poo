@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+public class Estatistica {
+	private ArrayList<Double> amostra;
+	
+	public Estatistica() {
+		this.amostra = new ArrayList<>();
+	}
+	
+	
+}

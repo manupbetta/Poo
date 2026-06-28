@@ -1,0 +1,9 @@
+import java.util.ArrayList;
+
+public class TesteDeDownCasting {
+	public static void main (String[] args) {
+		ArrayList<Forma> formas = TesteFormas.criaFormas(5);
+		
+		
+	}
+}

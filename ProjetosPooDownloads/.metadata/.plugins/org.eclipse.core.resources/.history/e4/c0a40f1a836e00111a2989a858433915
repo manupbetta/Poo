@@ -1,0 +1,6 @@
+
+public class InstalacaoMacaco extends Instalacao{
+	public InstalacaoMacaco(Localização localizacao) {
+		super()
+	}
+}

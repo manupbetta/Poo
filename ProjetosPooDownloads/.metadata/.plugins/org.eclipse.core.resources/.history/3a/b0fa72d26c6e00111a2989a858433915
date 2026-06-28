@@ -1,0 +1,8 @@
+
+public class Jaula extends ElementoInstalacao{
+	private double altura;
+	private double largura;
+	private double comprimento;
+	
+	p
+}

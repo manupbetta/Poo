@@ -1,0 +1,18 @@
+
+public class Baleia implements Aquatico{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Baleia(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.GRANDE;
+	}
+	
+	public 
+	
+	public void locomover() {
+		this.nadar();
+	}
+	
+	
+}

@@ -1,0 +1,12 @@
+
+public class Zebra {
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Zebra(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.MEDIO;
+	}
+	
+	
+}

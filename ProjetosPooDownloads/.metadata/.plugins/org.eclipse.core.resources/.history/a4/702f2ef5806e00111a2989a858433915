@@ -1,0 +1,12 @@
+import java.util.List;
+import java.util.ArrayList;
+
+public abstract class Instalacao {
+	private int capacidadeMaxima;
+	private Localização localizacao;
+	private double temperatura;
+	private List<Animal> animaisInstalados;
+	private List<ElementoInstalacao> elementos; //relação 1..1*
+	
+	
+}

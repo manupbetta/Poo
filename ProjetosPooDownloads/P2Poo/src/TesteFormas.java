@@ -1,0 +1,34 @@
+import java.util.Random;
+import java.util.ArrayList;
+
+public class TesteFormas {
+	public static ArrayList<Forma> criaFormas(int quantidade){
+		ArrayList<Forma> lista = new ArrayList<>();
+		Random rand = new Random();
+		
+		for(int i = 0; i < quantidade; i++) {
+			//sorteia um número de 0 a 3 para escolher a forma
+			int tipo = rand.nextInt(4); 
+			
+			//valores aleatórios entre 1.0 e 11.0 para os atributos
+			double val1 = 1.0 + rand.nextDouble() * 10.0;
+			double val2 = 1.0 + rand.nextDouble() * 10.0;
+			
+			switch (tipo) {
+			case 0: 
+				lista.add(new Retangulo(val1, val2));
+				break;
+			case 1: 
+				lista.add(new Quadrado(val1));
+				break;
+			case 2:
+				lista.add(new Elipse(val1, val2));
+				break;
+			case 3:
+				lista.add(new Circulo(val1));
+				break;
+			}
+		}
+		return lista;
+	}
+}

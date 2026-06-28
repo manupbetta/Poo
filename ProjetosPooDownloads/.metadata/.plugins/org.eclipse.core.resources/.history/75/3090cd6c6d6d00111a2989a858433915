@@ -1,0 +1,23 @@
+
+public class Zebra implements Terrestre{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Zebra(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.MEDIO;
+	}
+	
+	@Override
+	public Boolean Alimentar(Alimento alimento) {
+		return alimento == Alimento.FRUTAS || alimento == Alimento.VERDURAS;
+	}
+	
+	@Override
+	public void locomover() {
+		this.andar();
+	}
+	
+	@Override
+	
+}

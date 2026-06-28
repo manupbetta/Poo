@@ -1,0 +1,6 @@
+
+public class Tanque extends ElementoInstalacao{
+	private double volumeEmLitros;
+	
+	
+}

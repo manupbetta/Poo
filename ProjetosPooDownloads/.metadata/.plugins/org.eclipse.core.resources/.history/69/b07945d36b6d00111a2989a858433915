@@ -1,0 +1,15 @@
+
+public class Macaco {
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Macaco(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.PEQUENO;
+	}
+	
+	@Override
+	public Boolean Alimentar(Alimento alimento) {
+		
+	}
+}

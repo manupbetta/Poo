@@ -1,0 +1,7 @@
+
+public class TesteDeRinha {
+	public static void main(String [] args) {
+		Item espada = new Item("Espada", 15, 0, 10, 0);
+		Item escudo = new Item("Escudo", 0, 20, 50, 0);
+	}
+}

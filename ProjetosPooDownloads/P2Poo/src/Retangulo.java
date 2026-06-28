@@ -1,0 +1,28 @@
+
+public class Retangulo extends Forma{
+	private double largura;
+	private double comprimento;
+	
+	public Retangulo(double largura, double comprimento) {
+		this.largura = largura;
+		this.comprimento = comprimento;
+	}
+	
+	public double getLargura() {
+		return this.largura;
+	}
+	
+	public double getComprimento() {
+		return this.comprimento;
+	}
+	
+	@Override
+	public double calcularArea() {
+		return this.getComprimento() * this.getLargura();
+	}
+	
+	@Override
+	public double calcularPerimetro() {
+		return 2 * (this.getComprimento() + this.getLargura());
+	}
+}

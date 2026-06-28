@@ -1,0 +1,7 @@
+
+public class Pinguim {
+	private Sexo sexo;
+	private Porte porte;
+	
+	
+}

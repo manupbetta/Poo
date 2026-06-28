@@ -1,0 +1,7 @@
+
+public class Tartaruga implements Anfibio{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public 
+}

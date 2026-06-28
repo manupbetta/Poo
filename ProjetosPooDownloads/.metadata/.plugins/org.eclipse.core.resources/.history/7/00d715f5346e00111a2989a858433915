@@ -1,0 +1,6 @@
+package JogoP2;
+
+public class Jogo {
+	private String nome;
+	
+}

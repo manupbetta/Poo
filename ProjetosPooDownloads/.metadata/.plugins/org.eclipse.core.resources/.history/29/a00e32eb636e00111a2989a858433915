@@ -1,0 +1,10 @@
+package JogoPo;
+
+public class TanqueDeEscudo extends Escudeiro{
+	public TanqueDeEscudo(String nome, int vida, int mana, Item [] itens) {
+		super(nome, vida, mana, itens);
+	}
+	
+	@Override
+	public int golpe
+}

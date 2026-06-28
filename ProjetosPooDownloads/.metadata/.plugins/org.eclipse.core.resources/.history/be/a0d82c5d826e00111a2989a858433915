@@ -1,0 +1,6 @@
+
+public class InstalacaoElefante extends Instalacao{
+	public InstalacaoElefante(Localização localizacao) {
+		super(2,)
+	}
+}

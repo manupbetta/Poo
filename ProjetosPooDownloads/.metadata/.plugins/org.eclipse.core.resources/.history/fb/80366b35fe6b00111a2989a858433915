@@ -1,0 +1,9 @@
+
+public class Retangulo extends Forma{
+	private double largura;
+	private double comprimento;
+	
+	public double getLargura() {
+		
+	}
+}

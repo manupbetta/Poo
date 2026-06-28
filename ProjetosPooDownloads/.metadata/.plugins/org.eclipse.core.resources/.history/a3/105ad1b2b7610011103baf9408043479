@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+				Fatura minhaFatura = new Fatura("Manu Betta", "123,456,789-10");
+				
+				Item item1 = new Item(2, 35.90, "Livro");
+				Item item2 = new Item(1, 203.80, "Blusa");
+				Item item3 = new 
+		    }
+		}

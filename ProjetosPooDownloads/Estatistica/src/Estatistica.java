@@ -1,0 +1,47 @@
+import java.util.ArrayList;
+
+public class Estatistica {
+	private ArrayList<Double> amostra;
+	
+	//Construtor: inicializar a lista vazia
+	public Estatistica() {
+		this.amostra = new ArrayList<>();
+	}
+	
+	//Método para adicionar uma amostra na Lista
+	public void adicionarAmostra(double valor) {
+		this.amostra.add(valor);
+	}
+	
+	//Calcular a média
+	public double calcularMedia() {
+		if (amostra.isEmpty()) return 0;
+		
+		double soma = 0;
+		for(double x : amostra) {
+			soma += x; //Soma todos os elementos 
+		}
+		return soma / samplesCount();
+	}
+	
+	//Calcular o desvio padrao
+	public double calcularDesvioPadrao(){
+		if (amostra.isEmpty()) return 0;
+		
+		double media = calcularMedia();
+		double somaVarianca = 0;
+		
+		for(double x : amostra) {
+			//Calcula (x_i - media)^2 e soma
+			somaVarianca += Math.pow(x - media, 2);
+		}
+		
+		double variancia = somaVarianca/samplesCount();
+		return Math.sqrt(variancia);
+	}
+
+	//Método auxiliar para obter a quantidade de elementos (n)
+	public int samplesCount() {
+		return this.amostra.size();
+	}
+}

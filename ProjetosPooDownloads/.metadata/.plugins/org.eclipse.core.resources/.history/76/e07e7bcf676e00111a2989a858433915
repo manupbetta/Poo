@@ -1,0 +1,13 @@
+package JogoPo;
+
+public class Coliseu {
+	public static void main(String [] args) {
+		Item espada = new Item("Espada", 10, 30, 0, 0);
+		Item [] itens = { espada };
+		
+		Espadachim e1 = new Espadachim("Klaus", 100, 20, itens);
+		Escudeiro esc1 = new Escudeiro("Elijah", 110, 10, itens);
+		
+		Campeonato c = new Campeonato()
+	}
+}

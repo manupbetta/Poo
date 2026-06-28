@@ -1,0 +1,8 @@
+
+public class Circulo extends Elipse{
+	public Circulo(double raio) {
+		super(raio, raio);
+	}
+	
+	
+}

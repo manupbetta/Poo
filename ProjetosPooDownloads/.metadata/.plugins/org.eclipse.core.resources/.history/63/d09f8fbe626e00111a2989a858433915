@@ -1,0 +1,9 @@
+package JogoPo;
+
+public class Espadachim extends Gradiador {
+	public Espadachim(String nome, int vida, int mana, Item [] itens) {
+		super(nome, vida, mana, itens);
+	}
+	
+	
+}

@@ -1,0 +1,6 @@
+
+public class InstalacaoFoca {
+	public InstalacaoFoca(Localização localizacao) {
+		
+	}
+}

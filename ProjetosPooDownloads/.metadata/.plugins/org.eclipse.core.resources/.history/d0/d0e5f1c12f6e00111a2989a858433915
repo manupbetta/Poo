@@ -1,0 +1,10 @@
+package JogoP2;
+
+public abstract class Entidade implements Lutavel{
+	private String nome;
+	private int vida;
+	private int mana;
+	private Item [] itens;
+	
+	
+}

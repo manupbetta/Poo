@@ -1,0 +1,21 @@
+
+public class Tartaruga implements Anfibio{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Tartaruga(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.PEQUENO;
+	}
+	
+	@Override
+	public Boolean Alimentar(Alimento alimento) {
+		return alimento == Alimento.FRUTAS || alimento == Alimento.VERDURAS || alimento == Alimento.PEIXES;
+	}
+	
+	@Override
+	public void locomover() {
+		this.nadar();
+		this.andar();
+	}
+}

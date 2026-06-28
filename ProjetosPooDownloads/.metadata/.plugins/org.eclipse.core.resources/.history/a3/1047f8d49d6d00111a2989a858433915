@@ -1,0 +1,14 @@
+
+public class Tartaruga implements Anfibio{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Tartaruga(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.PEQUENO;
+	}
+	
+	public Boolean Alimentar(Alimento alimento) {
+		
+	}
+}

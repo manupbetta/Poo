@@ -1,0 +1,38 @@
+
+public class Elipse extends Forma implements Excentricidade {
+	//Eixo Maior: A, Eixo Menor: B
+	private double a;
+	private double b;
+	
+	public Elipse(double a, double b) {
+		if(a >= b) {
+			this.a = a;
+			this.b = b;
+		} else{
+			this.a = b;
+			this.b = a;
+		}
+	}
+	
+	public double getA() {
+		return this.a;
+	}
+	
+	public double getB() {
+		return this.b;
+	}
+	
+	@Override
+	public double calcularArea() {
+		return Math.PI * this.getA() * this.getB();
+	}
+	
+	@Override
+	public double calcularPerimetro() {
+		double x = Math.pow(a, 2);
+		double y = Math.pow(b, 2);
+		double termo1 = Math.pow(a-b, 2);
+		double termo2 = x - y;
+		
+	}
+}

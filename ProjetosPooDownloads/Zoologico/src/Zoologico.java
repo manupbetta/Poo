@@ -1,0 +1,19 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Zoologico {
+	//Um mapa que vincula uma localizaçao a uma Instalacao
+	private Map<Localização, Instalacao> mapaInstalacoes;
+	
+	public Zoologico() {
+		this.mapaInstalacoes = new HashMap<>();
+	}
+	
+	public void adicionarInstalacao(Localização localizacao, Instalacao instalacao) {
+		this.mapaInstalacoes.put(localizacao, instalacao);
+	}
+	
+	public Instalacao getInstalaco(Localização localizacao) {
+		return this.mapaInstalacoes.get(localizacao);
+	}
+}

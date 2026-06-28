@@ -1,0 +1,14 @@
+package JogoP2;
+
+public class TrollDePoo extends Troll{
+	public TrollDePoo(String nome, int vida, int mana, Item [] itens) {
+		super(nome, vida, mana, itens);
+	}
+	
+	public int poder(Lutavel oponente) {
+		if(oponente != null) {
+			return 
+		}
+		return 0;
+	}
+}

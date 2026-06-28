@@ -1,0 +1,27 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		        // 1. Criando a fatura do cliente
+		        Fatura minhaFatura = new Fatura("João Silva", "123.456.789-00");
+
+		        // 2. Criando alguns itens
+		        Item item1 = new Item("Caderno", 2, 15.50);  // 2 * 15.50 = 31.00
+		        Item item2 = new Item("Caneta Azul", 5, 2.00); // 5 * 2.00 = 10.00
+		        Item item3 = new Item("Mochila", 1, 120.00);  // 1 * 120.00 = 120.00
+
+		        // 3. Adicionando itens na fatura usando o método solicitado
+		        minhaFatura.adicionalItem(0, item1);
+		        minhaFatura.adicionalItem(1, item2);
+		        minhaFatura.adicionalItem(2, item3);
+
+		        // 4. Exibindo os dados e o preço total calculado
+		        System.out.println("Cliente: " + minhaFatura.getNome());
+		        System.out.println("CPF: " + minhaFatura.getCpf());
+		        System.out.println("------------------------------------");
+		        System.out.printf("Valor Total da Fatura: R$ %.2f\n", minhaFatura.obtemPreco());
+		    }
+		}
+	}
+
+}

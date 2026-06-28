@@ -1,0 +1,17 @@
+
+public class Elefante implements Terrestre{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Elefante(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.GRANDE;
+	}
+	
+	@Override
+	public Boolean Alimentar(Alimento alimento) {
+		return alimento == Alimento.FRUTAS || alimento == Alimento.VERDURAS;
+	}
+	
+	
+}

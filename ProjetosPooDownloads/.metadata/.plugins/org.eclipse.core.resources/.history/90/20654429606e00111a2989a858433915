@@ -1,0 +1,10 @@
+package JogoPo;
+
+public abstract class Gladiador implements Lutavel{
+	private String nome;
+	private int vida;
+	private int mana;
+	private Item [] itens;
+	
+	
+}

@@ -1,0 +1,8 @@
+package JogoPo;
+
+public class TanqueDeEscudo {
+	public TanqueDeEscudo(String nome, int vida, int mana, Item [] itens) {
+		super(nome, vida, mana, itens);
+	}
+	
+}

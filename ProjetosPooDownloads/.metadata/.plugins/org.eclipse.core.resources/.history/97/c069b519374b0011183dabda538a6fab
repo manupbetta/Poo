@@ -1,0 +1,32 @@
+package projetopoo;
+
+public class Video implements AcoesVideo{
+	
+	private String titulo;
+	private int avaliacao;
+	private int views;
+	private int curtidas;
+	private boolean reproduzindo;
+	
+	public void play() {
+		
+	}
+	
+	public void pause() {
+		
+	}
+	
+	public void like() {
+		
+	}
+	
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	
+	public String getTitulo() {
+		return this.titulo;
+	}
+	
+	
+}

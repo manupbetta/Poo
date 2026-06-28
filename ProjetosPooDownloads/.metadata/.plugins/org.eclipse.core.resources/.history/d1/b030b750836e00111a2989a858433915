@@ -1,0 +1,7 @@
+
+public class InstalacaoZebra {
+	public InstalacaoZebra(Localização localizacao) {
+		super(2, localizacao, 24.0);
+		
+	}
+}

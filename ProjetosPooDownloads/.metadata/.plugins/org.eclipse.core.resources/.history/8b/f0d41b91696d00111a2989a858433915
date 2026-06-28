@@ -1,0 +1,16 @@
+
+public class Leao implements Terrestre{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Leao(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.MEDIO;
+	}
+	
+	public Boolean Alimentar(Alimento alimento) {
+		return alimento == Alimento.CARNES;
+	}
+	
+	
+}

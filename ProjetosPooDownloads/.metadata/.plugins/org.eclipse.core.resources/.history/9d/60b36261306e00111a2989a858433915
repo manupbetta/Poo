@@ -1,0 +1,33 @@
+package JogoP2;
+
+public abstract class Entidade implements Lutavel{
+	private final String nome;
+	private int vida;
+	private int mana;
+	private Item [] itens;
+	
+	public Entidade(String nome, int vida, int mana, Item [] itens) {
+		this.nome = nome;
+		this.vida = vida;
+		this.mana = mana;
+		this.itens = itens;
+	}
+	
+	public abstract int poder();
+	
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public int getVida() {
+		return this.vida;
+	}
+	
+	public int getMana(){
+		return this.mana;
+	}
+	
+	public Item [] getItens() {
+		return this.itens;
+	}
+}

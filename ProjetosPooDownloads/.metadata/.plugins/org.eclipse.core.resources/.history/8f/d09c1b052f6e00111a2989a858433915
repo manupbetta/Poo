@@ -1,0 +1,11 @@
+package JogoP2;
+
+public class Item {
+	private final String nome;
+	private int ataque;
+	private int defesa;
+	private int vida;
+	private int mana;
+	
+	
+}

@@ -1,0 +1,20 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+				Fatura minhaFatura = new Fatura("Manu Betta", "123,456,789-10");
+				
+				Item item1 = new Item(2, 35.90, "Livro");
+				Item item2 = new Item(1, 203.80, "Calça");
+				Item item3 = new Item(4, 14.00, "Envelopes");
+				
+				minhaFatura.adicionarItem(0, item1);
+				minhaFatura.adicionarItem(1, item2);
+				minhaFatura.adicionarItem(2, item3);
+				
+				System.out.println("Cliente: " + minhaFatura.getNome());
+				System.out.println("Cpf: " + minhaFatura.getCpf());
+				System.out.println("------------------------------------");
+				System.out.println("Valor Total da Fatura: $" + minhaFatura.obtemPreco());
+		    }
+		}

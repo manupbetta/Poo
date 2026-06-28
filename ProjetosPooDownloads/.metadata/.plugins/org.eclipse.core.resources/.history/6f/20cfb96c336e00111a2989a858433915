@@ -1,0 +1,7 @@
+package JogoP2;
+
+public class Troll {
+	public Troll (String nome, int vida, int mana, Item itens) {
+		super(nome, vida, mana, itens);
+	}
+}

@@ -1,0 +1,10 @@
+
+public class Macaco {
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Macaco(Sexo sexo) {
+		this.sexo = sexo;
+		
+	}
+}

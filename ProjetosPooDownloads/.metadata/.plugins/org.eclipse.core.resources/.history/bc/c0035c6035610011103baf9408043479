@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		Estatistica estatistica = new Estatistica();
+		
+		System.out.print("Digite o número de amostras que deseja inserir (n): ");
+		int n = scanner.nextInt();
+		
+		
+
+	}
+
+}

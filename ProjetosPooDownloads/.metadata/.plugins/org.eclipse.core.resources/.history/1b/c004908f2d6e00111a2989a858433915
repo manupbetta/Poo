@@ -1,0 +1,9 @@
+package JogoP2;
+
+public interface Lutavel {
+	String getNome();
+	int calcularAtaque();
+	int calcularDefesa();
+	int calcularManaTotal();
+	int calcularVidaTota();
+}

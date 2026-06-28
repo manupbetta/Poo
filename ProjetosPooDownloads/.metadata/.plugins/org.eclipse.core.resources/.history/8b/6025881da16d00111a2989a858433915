@@ -1,0 +1,16 @@
+
+public class Pinguim {
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Pinguim(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.PEQUENO;
+	}
+	
+	public Boolean Alimentar(Alimento alimento) {
+		return alimento == Alimento.PEIXES;
+	}
+	
+	public 
+}

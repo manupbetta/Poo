@@ -1,0 +1,38 @@
+
+public class FabricaInstalacao {
+	public static Instalacao criarInstalacaoElefante(Localização localizacao) {
+		return new InstalacaoElefante(localizacao);
+	}
+	
+	public static Instalacao criarInstalacaoMacaco(Localização localizacao) {
+		return new InstalacaoMacaco(localizacao);
+	}
+	
+	public static Instalacao criarInstalacaoZebra(Localização localizacao) {
+		return new InstalacaoZebra(localizacao);
+	}
+	
+	public static Instalacao criarInstalacaoLeao(Localização localizacao) {
+		return new InstalacaoZebra(localizacao);
+	}
+	
+	public static Instalacao criarInstalacaoTartaruga(Localização localizacao) {
+		return new InstalacaoTartaruga(localizacao);
+	}
+	
+	public static Instalacao criarInstalacaoPinguim(Localização localizacao) {
+		return new InstalacaoPinguim(localizacao);
+	}
+	
+	public static Instalacao criarInstalacaoFoca(Localização localizacao) {
+		return new InstalacaoFoca(localizacao);
+	}
+	
+	public static Instalacao criarInstalacaoPeixe(Localização localizacao) {
+		return new InstalacaoPeixe(localizacao);
+	}
+	
+	public static Instalacap criarInstalacaoBaleia(Localização localizacao) {
+		return new
+	}
+}

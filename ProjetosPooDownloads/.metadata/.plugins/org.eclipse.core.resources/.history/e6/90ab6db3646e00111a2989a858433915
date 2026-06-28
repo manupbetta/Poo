@@ -1,0 +1,24 @@
+package JogoPo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Campeonato {
+	private List<Lutavel> lista;
+	private final String nome;
+	
+	public Campeonato(String nome) {
+		this.lista = new ArrayList<>();
+		this.nome = nome;
+	}
+	
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public List<Lutavel> getLista(){
+		return this.lista;
+	}
+	
+	public void dueloDeLutadores(Lutavel)
+}

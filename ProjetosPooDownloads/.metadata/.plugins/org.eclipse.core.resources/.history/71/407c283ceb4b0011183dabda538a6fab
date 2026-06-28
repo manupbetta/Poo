@@ -1,0 +1,39 @@
+package projetopoo;
+
+public class Visualizacao {
+	private Video filme;
+	private Aluno espectador;
+	
+	public Visualizacao(Video filme, Aluno espectador) {
+		this.filme = filme;
+		this.espectador = espectador;
+		this.espectador.setTotAssistido(this.espectador.getTotAssistido() + 1);
+		this.filme.setViews(this.filme.getViews() + 1);
+	}
+	
+	public void setVideo(Video filme) {
+		this.filme = filme;
+	}
+	
+	public Video getVideo() {
+		return this.filme;
+	}
+	
+	public void setAluno(Aluno espectador) {
+		this.espectador = espectador;
+	}
+	
+	public Aluno getAluno() {
+		return this.espectador;
+	}
+	
+	public void avaliar() {
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Visualizacao [film = " + filme + ", espectador = " + espectador + "]";
+	}
+	
+}

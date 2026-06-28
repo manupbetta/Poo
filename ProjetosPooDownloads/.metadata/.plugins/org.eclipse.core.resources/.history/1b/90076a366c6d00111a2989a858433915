@@ -1,0 +1,25 @@
+
+public class Macaco implements Terrestre{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Macaco(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.PEQUENO;
+	}
+	
+	@Override
+	public Boolean Alimentar(Alimento alimento) {
+		return alimento == Alimento.FRUTAS;
+	}
+	
+	@Override
+	public void locomover() {
+		this.andar();
+	}
+	
+	@Override
+	public void andar() {
+		
+	}
+}

@@ -1,0 +1,18 @@
+
+public class PeixeBoi implements Aquatico{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public PeixeBoi(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.PEQUENO;
+	}
+	
+	@Override
+	public Boolean Alimentar(Alimento alimento) {
+		return alimento == Alimento.PEIXES;
+	}
+	
+	@Override
+	public 
+}

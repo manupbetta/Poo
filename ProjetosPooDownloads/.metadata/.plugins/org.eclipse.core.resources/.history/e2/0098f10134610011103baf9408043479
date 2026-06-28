@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+
+public class Estatistica {
+	private ArrayList<Double> amostra;
+	
+	public Estatistica() {
+		this.amostra = new ArrayList<>();
+	}
+	
+	//Método para adicionar uma amostra na Lista
+	public void adicionarAmostra(double valor) {
+		this.amostra.add(valor);
+	}
+	
+	//Calcular a média
+	public double calcularMedia() {
+		if (amostra.isEmpty()) return 0;
+		
+		double soma = 0;
+		for(double x : amostra) {
+			soma += x; //Soma todos os elementos 
+		}
+		return soma / samplesCount();
+	}
+
+	//Método auxiliar para obter a quantidade de elementos (n)
+	public int samplesCount() {
+		return this.amostra.size();
+	}
+}

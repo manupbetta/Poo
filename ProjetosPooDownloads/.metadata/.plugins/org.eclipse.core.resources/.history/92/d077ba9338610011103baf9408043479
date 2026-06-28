@@ -1,0 +1,8 @@
+
+public class Item {
+	private int quatidade;
+	private double precoUnitario;
+	private String nome;
+	
+	
+}

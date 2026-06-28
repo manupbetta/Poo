@@ -1,0 +1,5 @@
+package JogoPo;
+
+public abstract class Gladiador implements Lutavel{
+	
+}

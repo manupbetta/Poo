@@ -1,0 +1,31 @@
+
+public class Baleia implements Aquatico{
+	private Sexo sexo;
+	private Porte porte;
+	
+	public Baleia(Sexo sexo) {
+		this.sexo = sexo;
+		this.porte = Porte.GRANDE;
+	}
+	
+	@Override
+	public Boolean Alimentar(Alimento alimento) {
+		return alimento == Alimento.PEIXES;
+	}
+	
+	@Override
+	public void locomover() {
+		this.nadar();
+	}
+	
+	
+	public void nadar() {
+		System.out.println("Estou nadando!");
+	}
+	
+	public Sexo getSexo() {
+		return this.sexo;
+	}
+	
+	public
+}

@@ -1,0 +1,7 @@
+
+public class InstalacaoBaleia extends Instalacao{
+	public InstalacaoBaleia(Localização localizacao) {
+		super(2, localizacao, 19.0);
+		adicionarElementos(new Tanque(1000));
+	}
+}

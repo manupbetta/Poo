@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+public class Estatistica {
+	private ArrayList<Double> amostra;
+	
+	public Estatistica() {
+		this.amostra = new ArrayList<>();
+	}
+	
+	//Método para adicionar uma amostra na Lista
+	public void adicionarAmostra(double valor) {
+		this.amostra.add(valor);
+	}
+	
+	//Calcular a média
+	public double calcularMedia() {
+		
+	}
+}
