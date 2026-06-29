@@ -1,2 +1,2 @@
 # Poo
-Projetos do Curso de Programação Orientada a Objeto
+Projetos do Curso de **Programação Orientada a Objeto**
